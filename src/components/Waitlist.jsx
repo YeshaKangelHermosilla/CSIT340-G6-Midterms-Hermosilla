@@ -8,12 +8,14 @@ jsxs("div", {
                     className: "text-2xl font-bold",
                     children: "Cloudline Enterprise is coming soon.",
                 }),
+        
                 jsxs("p", {
                     className: "mt-1 text-xl",
                     children: [teams, " teams joined the waitlist."],
                 }),   
             ],
         }),
+        
         jsxs("div", {
             className: "flex gap-4",
             children: [
@@ -30,6 +32,6 @@ jsxs("div", {
                     children: "Clear",
                  }),
             ],
-        }),
+        }),  
     ],
 });
